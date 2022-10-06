@@ -1,5 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from './components/Home';
+import AddBooks from './components/AddBooks';
+import ReadingList from './components/ReadingList';
+import Read from './components/Read'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import NavBar from './components/NavBar';
+import { Routes, Route } from 'react-router-dom';
+import {useState, useEffect} from 'react';
 
 function App() {
   return (
