@@ -8,6 +8,17 @@ import { Routes, Route } from 'react-router-dom';
 import {useState, useEffect} from 'react';
 
 function App() {
+const [books, setBooks] = useState([]);
+
+function fetchBooks(){
+  fetch('http://localhost:3000/books')
+  .then((res) => res.json())
+  .then((data) =>setBooks(data))
+}
+useEffect(() => {
+  fetchBooks();
+}, [])
+
   return (
     <div className="App">
       <header className="App-header">
