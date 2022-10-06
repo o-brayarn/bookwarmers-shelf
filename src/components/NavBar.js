@@ -14,6 +14,7 @@ export default function NavBar() {
           </Nav>
 
           <Nav className="navlink">
+          <NavLink to="/" exact="true"> HOME </NavLink>
               <NavLink to="/reading-list" exact="true"> READING LIST </NavLink>
               <NavLink to="/read" exact="true"> READ </NavLink>
               <NavLink to="/add-books" exact="true"><Button variant="outline-info">+ADD</Button></NavLink>

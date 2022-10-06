@@ -4,9 +4,10 @@
 Bookwarmers' Shelf is a book planner or book tracker that allows a reader to add the books they plan to read during the month, and mark them as "read" once they are done with them. The read books are moved to another section/page for the reader to keep track of their reading journey. In addition, they can also go back to the books for rereads.
 
 ## Screenshots
-
+![myimage-alt-tag](./public/addBookForm.jpeg)
+![myimage-alt-tag](./public/homepage.jpeg)
 ### Link to site
-
+https://ogedabrayarn.github.io/bookwarmers-shelf/
 ## Installation
 ### Requirement
 * PC, Ipad, tablet or phone
@@ -30,7 +31,7 @@ npm start
 - other libraries: react-router-dom, db.json
 
 ## Known Bugs
-
+- Styling the div horizontally and implementing <b>Context API(Global storage)</b>
 ## License
 MIT License
 
@@ -42,4 +43,4 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
 ## Author details
-- Email: `brayarn.oduor@student.moringaschool.com`
+- Email: brayarn.oduor@student.moringaschool.com
