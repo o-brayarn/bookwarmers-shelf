@@ -9,6 +9,7 @@ import {useState, useEffect} from 'react';
 
 function App() {
 const [books, setBooks] = useState([]);
+const [collections, setCollections] = useState([]);
 
 function fetchBooks(){
   fetch('http://localhost:3000/books')
@@ -19,14 +20,35 @@ useEffect(() => {
   fetchBooks();
 }, [])
 
+function handleSearch(search){
+  if (search === ''){
+    fetchBooks(books)
+  } else {
+ 
+  const searchBooks = books.filter(book => {
+    return book.title.toLowerCase().includes(search.toLowerCase())
+  })
+  setBooks(searchBooks)
+ }
+}
+
+function handleAdd(book){
+  setBooks([...books, book])
+}
+
+function addToRead(book) {
+  const booksCollection = collections.find((collection) => collection.id === book.id)
+  if (!booksCollection) setCollections([...collections, book])
+}
 
   return (
     <div className="main">
       <NavBar />
       <Routes>
-        <Route path="/reading-list" element={<ReadingList />} />
+      <Route path="/" element={<Home books={books} handleSearch={handleSearch} addToRead={addToRead} />} />
+        <Route path="/reading-list" element={<ReadingList collections={collections} />} />
         <Route path="/read" element={<Read />} />
-        <Route path="/add-books" element={<AddBooks books={books} />} />
+        <Route path="/add-books" element={<AddBooks books={books} handleAdd={handleAdd} />} />
       </Routes>
     </div>
   );
