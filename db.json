@@ -1,0 +1,122 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "J.K Rowling",
+      "cover": "https://i.pinimg.com/236x/60/86/09/608609cb613363a4bec0992fd87c1f9f.jpg",
+      "desc": "Harry Potter, an eleven-year-old orphan, discovers that he is a wizard and is invited to study at Hogwarts. Even as he escapes a dreary life and enters a world of magic, he finds trouble awaiting him."
+    },
+    {
+      "id": 2,
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "cover": "https://i.pinimg.com/236x/5d/02/0a/5d020a8da051459854bd0d9a23893033.jpg",
+      "desc": "Harry, Ron and Hermoine return to Hogwarts just as they learn about Sirius Black and his plans to kill Harry. However, when Harry runs into him, he learns that the truth is far from reality."
+    },
+    {
+      "id": 3,
+      "title": "Harry Potter and the Order of the Phoenix",
+      "author": "J.K Rowling",
+      "cover": "https://i.pinimg.com/236x/c9/5b/0c/c95b0cb1a66955c5d378a92a761e50ce.jpg",
+      "desc": "Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who, in turn, look to undermine Dumbledore's authority at Hogwarts and discredit Harry."
+    },
+    {
+      "id": 4,
+      "title": "Harry Potter and the Half-Blood Prince",
+      "author": "J.K Rowling",
+      "cover": "https://i.pinimg.com/236x/a8/82/e1/a882e18b3ab4ae213641dbb3f19256b7.jpg",
+      "desc": "Dumbledore and Harry Potter learn more about Voldemort's past and his rise to power. Meanwhile, Harry stumbles upon an old potions textbook belonging to a person calling himself the Half-Blood Prince."
+    },
+    {
+      "id": 5,
+      "title": "The 48 Laws of Power",
+      "author": "Robert Green",
+      "cover": "https://i.pinimg.com/236x/09/c2/fd/09c2fd6a9ffa11310a210f04669649d3.jpg",
+      "desc": "The 48 Laws of Power is a non-fiction book by American author Robert Greene. The book is a New York Times bestseller, selling over 1.2 million copies in the United States; it is popular with prison inmates and celebrities."
+    },
+    {
+      "id": 6,
+      "title": "Harry Potter and the Chamber of Secrets",
+      "author": "J.K Rowling",
+      "cover": "https://i.pinimg.com/236x/89/3f/b4/893fb43b09f72ea93a08875ae82fd7c3.jpg",
+      "desc": "A house-elf warns Harry against returning to Hogwarts, but he decides to ignore it. When students and creatures at the school begin to get petrified, Harry finds himself surrounded in mystery."
+    },
+    {
+      "id": 7,
+      "title": "Harry Potter and the Deathly Hallows",
+      "author": "J.K Rowling",
+      "cover": "https://i.pinimg.com/236x/a6/f8/c6/a6f8c60ec19331ca48c529548964bc70.jpg",
+      "desc": "After Voldemort takes over the Ministry of Magic, Harry, Ron and Hermione are forced into hiding. They try to decipher the clues left to them by Dumbledore to find and destroy Voldemort's Horcruxes."
+    },
+    {
+      "id": 8,
+      "title": "Angels and Demons",
+      "author": "Dan Brown",
+      "cover": "https://i.pinimg.com/236x/80/24/4f/80244f002a30d6644158835424d65de1.jpg",
+      "desc": "Robert, a symbologist, tries his best to stop a secret society from destroying Vatican City. He seeks to decipher various clues in the process, most of which lead him to the four altars of science."
+    },
+    {
+      "id": 9,
+      "title": "The Lost Symbol",
+      "author": "Dan Brown",
+      "cover": "https://i.pinimg.com/236x/8f/28/a9/8f28a9d0c9f1a597e8a384019ba9f1d6.jpg",
+      "desc": "A young Harvard symbologist must solve a series of deadly puzzles to save his kidnapped mentor and thwart a chilling global conspiracy."
+    },
+    {
+      "id": 10,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "cover": "https://i.pinimg.com/236x/e6/16/fa/e616fac5bf2b21c41c13dc5a608271d3.jpg",
+      "desc": "Symbologist Robert Langdon travels from Paris to London to unravel a bizarre murder. Accompanied by a cryptographer, he soon comes across a religious enigma protected by an age-old secret society."
+    },
+    {
+      "id": 11,
+      "title": "Slow Kill",
+      "author": "Michael McGarrity",
+      "cover": "https://i.pinimg.com/236x/22/50/c6/2250c6ee61601e15a5ceb6b5f8ac3d82.jpg",
+      "desc": "Santa Fe Police Chief Kevin Kerney travels to a California ranch looking to buy some prime quarter horse breeding stock. Instead, he finds himself the prime suspect in a possible homicide when the ranch owner, Clifford Spalding, is found dead. .."
+    },
+    {
+      "id": 12,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "cover": "https://i.pinimg.com/236x/fc/07/90/fc0790b0501e58e90e8c7a529480a2bf.jpg",
+      "desc": "To Kill a Mockingbird is a novel by the American author Harper Lee. It was published in 1960 and was instantly successful. In the United States, it is widely read in high schools and middle schools. To Kill a Mockingbird has become a classic of modern American literature, winning the Pulitzer Prize."
+    },
+    {
+      "id": 13,
+      "title": "The Four Winds",
+      "author": "Kristin Hannah",
+      "cover": "https://i.pinimg.com/236x/e1/32/1b/e1321bf9ccc60eb99eaa203b29d424ff.jpg",
+      "desc": "One of the darkest periods of the Great Depression, the Dust Bowl era, has arrived with a vengeance. In this uncertain and dangerous time, Elsa Texas, 1934."
+    },
+    {
+      "id": 14,
+      "title": "Things Fall Apart",
+      "author": "Chinua Achebe",
+      "cover": "https://i.pinimg.com/236x/ed/08/4f/ed084fde6cae1cfd9b5471593f6e15bf.jpg",
+      "desc": "Things Fall Apart is the debut novel by Nigerian author Chinua Achebe, first published in 1958. It depicts pre-colonial life in the southeastern part of Nigeria and the invasion by Europeans during the late 19th century."
+    },
+    {
+      "id": 15,
+      "title": "Betrayal in the City",
+      "author": "Francis Imbuga",
+      "cover": "https://i.pinimg.com/236x/4f/6a/25/4f6a2507d073eca1a1dda524264327ff.jpg",
+      "desc": "First published in 1976, this play from one of Africa's foremost dramatists is in the classic cannon. It is an incisive examination of the problems of independence and freedom in post-colonial Africa states, where few believe they have a stake in the future. ..."
+    },
+    {
+      "id": 16,
+      "title": "The Art of War",
+      "author": "Sun Tzu",
+      "cover": "https://i.pinimg.com/236x/a3/2c/9e/a32c9e83c7b51310e4733fa24bc2a008.jpg",
+      "desc": "The Art of War is an ancient Chinese military treatise dating from the Late Spring and Autumn Period. The work, which is attributed to the ancient Chinese military strategist Sun Tzu, is composed of 13 chapters."
+    },
+    {
+      "id": 17,
+      "title": "Meditation",
+      "author": "Marcus Aurelius",
+      "cover": "https://i.pinimg.com/236x/6c/1d/c4/6c1dc479b4820a264b54970d8be3a63e.jpg",
+      "desc": "Meditations is a series of personal writings by Marcus Aurelius, Roman Emperor from AD 161 to 180, recording his private notes to himself and ideas on Stoic philosophy. Marcus Aurelius wrote the 12 books of the Meditations in Koine Greek as a source for his own guidance and self-improvement."
+    }
+  ]
+}
