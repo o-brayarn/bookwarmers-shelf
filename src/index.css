@@ -20,3 +20,23 @@ body{
 .brand{
   font-weight: bold;
 }
+form{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  max-width: 40%;
+  margin-left: 40pc;
+}
+
+
+.input-fields input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 9rem;
+  width: 50%;
+  margin-top: 2rem;
+  height: 3rem;
+  border-radius: 10px;
+}
