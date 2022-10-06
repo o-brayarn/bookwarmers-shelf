@@ -3,7 +3,8 @@ body{
 }
 .card{
   background-color: #2C4044;
-  display:flex;
+  /* display: inline-block; */
+  /* width:fit-content; */
 }
 .main{
   width: 97%;

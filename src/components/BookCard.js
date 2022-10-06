@@ -15,8 +15,6 @@ export default function BookCard({ book, addToRead }) {
                             <div className="content">
                                 <div className="header">
                                     <h3>  {book.title} </h3>
-                     <h3>  {book.title} </h3> 
-                                    <h3>  {book.title} </h3>
                                 </div>
                                 <div className="meta text-wrap">
                                     <h6>{book.author}</h6>

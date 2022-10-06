@@ -24,7 +24,6 @@ function handleSearch(search){
   if (search === ''){
     fetchBooks(books)
   } else {
- 
   const searchBooks = books.filter(book => {
     return book.title.toLowerCase().includes(search.toLowerCase())
   })
