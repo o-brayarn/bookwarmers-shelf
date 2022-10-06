@@ -1,20 +1,20 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
-import Row from 'react-bootstrap/Row';
+import Card from 'react-bootstrap/Card';
 
-export default function BookCard({ book }) {
+export default function BookCard({ book, addToRead }) {
     return (
-        <Row xs={1} md={4} className="d-flex justify-content-md-evenly" key={book.id}>
-            <div className="" key="book" onClick={console.log("clicked")} >
+        <Card className="d-md-flex" >
+            <div className="" key="book" >
                 <div className="image">
                     <img alt="Snap! We lost an image!" src={book.cover} />
                 </div>
                 <div className="content">
                     <div className="header">
-                        {book.title}
+                     <h3>  {book.title} </h3> 
                     </div>
                     <div className="meta text-wrap">
-                        <small>{book.author}</small>
+                        <h6>{book.author}</h6>
                     </div>
                 </div>
 
@@ -23,7 +23,7 @@ export default function BookCard({ book }) {
 
                     <span>
                         <div className="ui center aligned segment basic">
-                            <Button className="btn btn-outline-light" onClick={console.log("click")} > Add to Reading List </Button>
+                            <Button className="btn btn-outline-light" key={book.id} onClick={() => addToRead(book)} > Add to Reading List </Button>
                             <span>
                                 <Button className="btn btn-outline-warning" onClick={console.log("click")} >Add to Read</Button>
                             </span>
@@ -32,6 +32,6 @@ export default function BookCard({ book }) {
                 </div>
             </div>
 
-        </Row>
+        </Card>
     );
 }
